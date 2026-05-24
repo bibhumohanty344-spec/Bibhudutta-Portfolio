@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>emailjs.init("4Zq34Tzk0F7Biceo1");</script>
+</head>
+<body>
+<div class="noise"></div>
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="curR"></div>
+
+<nav>
+  <div class="nav-logo">&lt; <span>BM</span> . /&gt;</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-dot"></div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+  <div class="hero-orb orb3"></div>
+  <div class="hero-content-inner" style="position:relative;z-index:2;width:100%;">
+    <div class="hero-ticker" style="display:inline-flex;align-items:center;gap:.75rem;font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:2px;border:1px solid var(--border);padding:.4rem 1rem;border-radius:100px;background:rgba(255,255,255,.02);margin-bottom:2.5rem;">
+      <span class="ticker-dot"></span>BENGALURU, INDIA — OPEN TO OPPORTUNITIES
+    </div>
+    <h1 class="hero-name">
+      <span class="first">BIBHUDUTTA</span>
+      <span class="last">MOHANTY.</span>
+    </h1>
+    <p class="hero-role">Java Full Stack Intern &nbsp;·&nbsp; <em>BCA Passed Out</em> &nbsp;·&nbsp; JSpiders</p>
+    <p class="hero-desc">
+      Building <strong>real-world systems</strong> that solve real problems.<br/>
+      Engineering at <strong>Sage University, Indore</strong> — shipping production-ready applications in Java, MySQL & Web Tech.
+    </p>
+    <div class="hero-cta">
+      <button class="btn-main" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">VIEW WORK</button>
+      <button class="btn-ghost" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">LET'S TALK</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-n">2</div><div class="stat-l">Projects Built</div></div>
+      <div class="stat"><div class="stat-n">1</div><div class="stat-l">Internship</div></div>
+      <div class="stat"><div class="stat-n">2026</div><div class="stat-l">Graduating</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee" id="mq">
+    <span class="marquee-item"><span>✦</span> CORE JAVA</span>
+    <span class="marquee-item"><span>✦</span> MYSQL</span>
+    <span class="marquee-item"><span>✦</span> SERVLETS</span>
+    <span class="marquee-item"><span>✦</span> JSP</span>
+    <span class="marquee-item"><span>✦</span> HTML5</span>
+    <span class="marquee-item"><span>✦</span> CSS3</span>
+    <span class="marquee-item"><span>✦</span> JAVASCRIPT</span>
+    <span class="marquee-item"><span>✦</span> APACHE TOMCAT</span>
+    <span class="marquee-item"><span>✦</span> DIALOGFLOW</span>
+    <span class="marquee-item"><span>✦</span> JDBC</span>
+    <span class="marquee-item"><span>✦</span> ECLIPSE IDE</span>
+    <span class="marquee-item"><span>✦</span> GIT</span>
+    <span class="marquee-item"><span>✦</span> CORE JAVA</span>
+    <span class="marquee-item"><span>✦</span> MYSQL</span>
+    <span class="marquee-item"><span>✦</span> SERVLETS</span>
+    <span class="marquee-item"><span>✦</span> JSP</span>
+    <span class="marquee-item"><span>✦</span> HTML5</span>
+    <span class="marquee-item"><span>✦</span> CSS3</span>
+    <span class="marquee-item"><span>✦</span> JAVASCRIPT</span>
+    <span class="marquee-item"><span>✦</span> APACHE TOMCAT</span>
+    <span class="marquee-item"><span>✦</span> DIALOGFLOW</span>
+    <span class="marquee-item"><span>✦</span> HIBERNATE</span>
+    <span class="marquee-item"><span>✦</span> ECLIPSE IDE</span>
+    <span class="marquee-item"><span>✦</span> GIT</span>
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- ABOUT -->
+<div class="section" id="about">
+  <div class="sec-eyebrow">
+    <span class="sec-num">01.0</span>
+    <div class="sec-line"></div>
+    <span class="sec-label">About Me</span>
+  </div>
+  <h2 class="sec-title">Engineering with <em>purpose.</em></h2>
+  <div class="about-layout">
+    <div class="about-text">
+      <p>I'm <strong>Bibhudutta Mohanty</strong>, a final-year BCA student at <strong>Sage University, Indore</strong> (graduating 2026), currently interning as a Java Full Stack developer at <strong>JSpiders Training Institute, Bengaluru.</strong></p>
+      <p>My core stack is <strong>Core Java and MySQL</strong>. I build applications that solve genuine problems — from hospital management systems to QR-based payment interfaces.</p>
+      <p>I value honesty about my skills over buzzword inflation, and I approach every project with an engineering-first mindset: understand the problem, design the system, then execute.</p>
+      <div class="quote-block">
+        <q>Every project I build starts with one question: Does this solve a real problem?</q>
+      </div>
+    </div>
+    <div class="about-right">
+      <div class="cap-list">
+        <div class="cap-item">
+          <div class="cap-icon">☕</div>
+          <div class="cap-name">Backend Development</div>
+          <div class="cap-sub">Core Java · Servlets · JSP · Apache Tomcat · JDBC</div>
+        </div>
+        <div class="cap-item">
+          <div class="cap-icon">🗄️</div>
+          <div class="cap-name">Database Engineering</div>
+          <div class="cap-sub">MySQL · SQL queries · Schema design · CRUD operations</div>
+        </div>
+        <div class="cap-item">
+          <div class="cap-icon">🌐</div>
+          <div class="cap-name">Frontend Development</div>
+          <div class="cap-sub">HTML5 · CSS3 · JavaScript · Responsive Design</div>
+        </div>
+        <div class="cap-item">
+          <div class="cap-icon">🛠️</div>
+          <div class="cap-name">Tools & Environment</div>
+          <div class="cap-sub">Eclipse IDE · Git · Dialogflow · FastAPI</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- PROJECTS -->
+<div class="section" id="projects">
+  <div class="sec-eyebrow">
+    <span class="sec-num">02.0</span>
+    <div class="sec-line"></div>
+    <span class="sec-label">Work</span>
+  </div>
+  <h2 class="sec-title">Selected <em>projects.</em></h2>
+  <div class="projects-grid">
+
+    <!-- HMS CARD -->
+    <div class="project-3d-wrap">
+      <div class="project-3d" id="hmsCard">
+        <div class="proj-visual proj-visual-hms">
+          <div class="hms-glow"></div>
+          <div class="hms-scene">
+            <div class="hms-ring ring1"></div>
+            <div class="hms-ring ring2"></div>
+            <div class="hms-ring ring3"></div>
+            <div class="hms-cross">
+              <div class="cross-v"></div>
+              <div class="cross-h"></div>
+            </div>
+            <div class="hms-dots" id="hmsDots"></div>
+          </div>
+          <div class="proj-shimmer"></div>
+        </div>
+        <div class="proj-content">
+          <div class="proj-eyebrow">
+            <span class="proj-tag blue">Java Full Stack</span>
+            <span class="proj-num">01 / 02</span>
+          </div>
+          <h3 class="proj-title">Hospital Management System</h3>
+          <p class="proj-desc">A comprehensive web-based hospital platform for managing patients, doctors, OPD scheduling and billing — built with Java Servlets, JSP and MySQL on Apache Tomcat.</p>
+          <div class="proj-features">
+            <div class="feature-row"><span class="feature-dot blue"></span>Patient registration & medical records</div>
+            <div class="feature-row"><span class="feature-dot blue"></span>Doctor scheduling & appointment management</div>
+            <div class="feature-row"><span class="feature-dot blue"></span>OPD queue & billing system</div>
+            <div class="feature-row"><span class="feature-dot blue"></span>Admin dashboard with live stats</div>
+          </div>
+          <div class="proj-stack">
+            <span class="stack-pill">Core Java</span>
+            <span class="stack-pill">Servlets</span>
+            <span class="stack-pill">JSP</span>
+            <span class="stack-pill">MySQL</span>
+            <span class="stack-pill">Apache Tomcat</span>
+            <span class="stack-pill">HTML/CSS</span>
+          </div>
+          <div class="proj-footer">
+            <a class="proj-link" href="#">VIEW REPO &nbsp;→</a>
+            <span style="font-family:var(--mono);font-size:0.65rem;color:var(--dimmed);">2024 – 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCANPAY CARD -->
+    <div class="project-3d-wrap">
+      <div class="project-3d" id="scanCard">
+        <div class="proj-visual proj-visual-scan">
+          <div class="scan-glow"></div>
+          <div class="scan-scene">
+            <div class="scan-rings">
+              <div class="scan-ring"></div>
+              <div class="scan-ring"></div>
+              <div class="scan-ring"></div>
+            </div>
+            <div class="qr-3d">
+              <div class="qr-inner" id="qrGrid"></div>
+            </div>
+            <div class="scan-beam"></div>
+            <div class="scan-coins" id="coins"></div>
+          </div>
+          <div class="proj-shimmer"></div>
+        </div>
+        <div class="proj-content">
+          <div class="proj-eyebrow">
+            <span class="proj-tag">Fintech</span>
+            <span class="proj-num">02 / 02</span>
+          </div>
+          <h3 class="proj-title">ScanPay – QR Payment App</h3>
+          <p class="proj-desc">A QR code-based digital payment simulation with real-time transaction processing, balance management, merchant dashboard and full payment history — inspired by UPI flows.</p>
+          <div class="proj-features">
+            <div class="feature-row"><span class="feature-dot"></span>QR code scan & instant payment simulation</div>
+            <div class="feature-row"><span class="feature-dot"></span>Transaction history & balance management</div>
+            <div class="feature-row"><span class="feature-dot"></span>Merchant & user dual-dashboard</div>
+            <div class="feature-row"><span class="feature-dot"></span>MySQL-backed transaction records</div>
+          </div>
+          <div class="proj-stack">
+            <span class="stack-pill">JavaScript</span>
+            <span class="stack-pill">HTML/CSS</span>
+            <span class="stack-pill">QR API</span>
+            <span class="stack-pill">MySQL</span>
+            <span class="stack-pill">LocalStorage</span>
+          </div>
+          <div class="proj-footer">
+            <a class="proj-link" href="#">VIEW REPO &nbsp;→</a>
+            <span style="font-family:var(--mono);font-size:0.65rem;color:var(--dimmed);">2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="div-line"></div>
+
+<!-- CONTACT -->
+<div class="section" id="contact">
+  <div class="sec-eyebrow">
+    <span class="sec-num">03.0</span>
+    <div class="sec-line"></div>
+    <span class="sec-label">Contact</span>
+  </div>
+  <h2 class="sec-title">Let's <em>connect.</em></h2>
+  <div class="contact-block">
+    <div class="contact-left">
+      <h3>Ready for the right opportunity.</h3>
+      <p>Open to fresher Java developer roles, internship extensions, and project collaborations in Bengaluru and beyond. Reach out with context — I respond fast.</p>
+      <div class="contact-items">
+        <div class="contact-row"><div class="contact-icon">📧</div><div><div class="contact-label">Email</div><div class="contact-val">bibhumohanty26024@gmail.com</div></div></div>
+        <div class="contact-row"><div class="contact-icon">📍</div><div><div class="contact-label">Location</div><div class="contact-val">Bengaluru, Karnataka</div></div></div>
+        <div class="contact-row"><div class="contact-icon">🎓</div><div><div class="contact-label">Institution</div><div class="contact-val">Sage University, Indore</div></div></div>
+        <div class="contact-row"><div class="contact-icon">💼</div><div><div class="contact-label">Current Role</div><div class="contact-val">Java Full Stack Intern · JSpiders</div></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="status-card">
+        <h4>Status</h4>
+        <div class="status-row"><span class="status-key">Availability</span><span class="status-online">ONLINE</span></div>
+        <div class="status-row"><span class="status-key">Response time</span><span class="status-val">&lt; 24h</span></div>
+        <div class="status-row"><span class="status-key">Location (IST)</span><span class="clock-val" id="clk">--:--:--</span></div>
+        <div class="status-row"><span class="status-key">Status</span><span class="status-val">Open to work</span></div>
+      </div>
+      <form class="contact-form" onsubmit="handleForm(event)">
+        <input class="cf-input" type="text" name="from_name" placeholder="Your Name" required/>
+        <input class="cf-input" type="email" name="from_email" placeholder="Your Email" required/>
+        <textarea class="cf-input cf-textarea" name="message" placeholder="Tell me about the opportunity..." required></textarea>
+        <button class="btn-main" type="submit" id="formBtn" style="align-self:flex-start;cursor:none;">SEND MESSAGE</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">&lt; <span>BM</span> . /&gt;</div>
+  <div class="footer-copy">© 2026 Bibhudutta Mohanty — Built with precision.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
